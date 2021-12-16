@@ -1,0 +1,31 @@
+@media (max-width: 1340px) {
+  .address-subtitle {
+    min-height: 45px;
+  }
+}
+@media (max-width: 880px) {
+  .address-subtitle {
+    min-height: 64px;
+  }
+}
+@media (max-width: 768px) {
+  .address-subtitle {
+    min-height: auto;
+  }
+
+  .phone__tip {
+      margin-top: 12px;
+  }
+}
+
+.phone__input {
+  padding: 0;
+}
+
+.phone__tip {
+  display: block;
+  background: #f2f2f2;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
